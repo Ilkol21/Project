@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css"/>
+  <script src="Script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="header" id="head">
+    <div>
+        <p class="name-2">Інтернет магазин  футбольної екіпіровки</p>
+        <div>
+            <img class="logo-1" src="img\adidas-9.svg" alt="logo_adidas"/>
+            <img class="logo-2" src="img\nike-4.svg" alt="logo_nike"/> 
+            <img class="logo" src="img\kisspng-wellington-phoenix-fc-new-zealand-football-champio-our-impact-australian-professional-football-club-5ce31ff0e67b70.8236949215583887209441.png" alt="logo"/>
+            <img class="logo-3" src="img\puma-logo.svg" alt="logo_puma"/>
+        </div>
+        <div class="name-3"><h2>Тут представлені такі бренди:</h2></div>
+        <div class="name-4"><h5>Відправлення замовлень: 9:00 - 18:00.<br/> 
+            Прийом замовлень: 9:00- 21:00.</h5></div>
+        <div class="name"><i>Дванадцятий гравець</i></div>
+</div>
+<div class="nav">
+  <nav class="navbar navbar-expand-lg bg-light" style="height:50px;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index-2.html"><b>Головна</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand joy" href="index.html"><b>Футбольна форма та бутси</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand ip" href="index-3.html"><b>М'ячі та сумки</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       
+              
+        <a class="navbar-brand cat" href="index-2.html#kon"><b>Контакти</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div >
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"><b>Корзина</b>
+          </button></div>
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+              
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Корзина</h4>
+                  <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <div class="input-group flex-nowrap" style="width: 400px; margin-left:50px">
+                    <span class="input-group-text" id="addon-wrapping">Ім'я</span>
+                    <input type="text" class="form-control" placeholder="Ім'я" aria-label="Ім'я" aria-describedby="addon-wrapping">
+                  </div>
+                  <div class="input-group flex-nowrap" style="width: 400px; margin-left:50px; padding-bottom: 10px;">
+                    <span class="input-group-text" id="addon-wrapping">Телефон</span>
+                    <input type="text" class="form-control" placeholder="Телефон" aria-label="Телефон" aria-describedby="addon-wrapping">
+                  </div>
+                  <div class="input-group mb-3" style="width: 400px; margin-left:50px">
+                    <label class="input-group-text" for="inputGroupSelect02">Артикул товару:</label>
+                    <select class="form-select" id="inputGroupSelect02">
+                      <option selected>Артикул товару:</option>
+                      <option value="1">NT-SD-13</option>
+                      <option value="2">NT-SD-14</option>
+                      <option value="3">NT-SD-15</option>
+                      <option value="4">NT-SD-16</option>
+                      <option value="5">NT-SD-17</option>
+                      <option value="6">NT-SD-18</option>
+                      <option value="7">NT-SD-19</option>
+                      <option value="8">NT-SD-20</option>
+                      <option value="9">NT-SD-21</option>
+                      <option value="10">NT-SD-22</option>
+                      <option value="11">NT-SD-23</option>
+                      <option value="12">NT-SD-24</option>
+                    </select>
+                  </div>
+                  <div class="input-group mb-3" style="width: 400px; margin-left:50px">
+                    <label class="input-group-text" for="inputGroupSelect01">Розмір:</label>
+                    <select class="form-select" id="inputGroupSelect01">
+                      <option selected>Розмір:</option>
+                      <option value="1">S</option>
+                      <option value="2">M</option>
+                      <option value="3">L</option>
+                      <option value="4">XL</option>
+                      <option value="5">42</option>
+                      <option value="6">43</option>
+                      <option value="7">44</option>
+                      <option value="8">45</option>
+                      <option value="9">4</option>
+                      <option value="10">5</option>
+                    </select>
+                  </div>
+                  <div class="input-group mb-3" style="width: 400px; margin-left:50px">
+                    <label class="input-group-text" for="inputGroupSelect03">Спосіб доставки:</label>
+                    <select class="form-select" id="inputGroupSelect03">
+                      <option selected>Спосіб доставки:</option>
+                      <option value="1">"Нова Пошта"</option>
+                      <option value="2">"Укрпошта"</option>
+                      <option value="3">Justin</option>
+                    </select>
+                  </div>
+                  <div class="input-group mb-3" style="width: 400px; margin-left:50px">
+                    <label class="input-group-text" for="inputGroupSelect04">Види доставки</label>
+                    <select class="form-select" id="inputGroupSelect04">
+                      <option selected>Види доставки</option>
+                      <option value="1">У відділення</option>
+                      <option value="2">Кур'єром</option>
+                    </select>
+                  </div>
+                  <div class="input-group flex-nowrap" style="width: 400px; margin-left:50px; padding-bottom: 10px;">
+                    <span class="input-group-text" id="addon-wrapping">Номер відділення</span>
+                    <input type="text" class="form-control" placeholder="Номер відділення" aria-label="Номер відділення" aria-describedby="addon-wrapping">
+                  </div>
+                  <div class="input-group mb-3" style="width: 400px; margin-left:50px">
+                    <label class="input-group-text" for="inputGroupSelect05">Спосіб оплати</label>
+                    <select class="form-select" id="inputGroupSelect05">
+                      <option selected>Спосіб оплати</option>
+                      <option value="1">Оплата при отриманні</option>
+                      <option value="2">Оплата зараз на карту</option>
+                    </select>
+                  </div>
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-dismiss="modal">Підтвердити</button>
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Відмінити</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        
+          </ul>
+          <div>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+         </div>
+        </div>
+      </div>
+    </nav>
+</div>
+<div class="aside" style="height: 2400px;">
+  <div сlass="donate">
+     <img class="donate photo" src="img\hands-g0d4c7528b_640.jpg"  alt="donate"/>
+  </div>
+  <div class="tom"><h3><b>Ми допомагаємо ЗСУ</b></h3></div>
+  <div class="popup" onclick="myFunction()"><h4>Натисніть щоб переконатись</h4>
+      <span class="popuptext" id="myPopup">Фонд "Повернись Живим" : 120 000 гривень.</span>
+  </div>
+  <div class="realname-1"><h2>Товари зі знижкою</h2></div>
+  <div class="row-cols-md-8 g-3">
+  <div class="col">
+    <div class="card h-100  tim">
+      <div style="text-align: center;"><b>Артикул: SL-DC-4308</b></div>
+      <img src="img\1570194216.jpeg" class="card-img-top" alt="Nike snickers">
+      <div class="card-body">
+        <h5 class="card-title">Бутси Nike<br/><h6><s>1080 грн</s></h6><br/><h6 class="alen">980 грн</h6></h5>
+        <div class="container">
+          <a href="#demo-39" class="btn btn-info" data-toggle="collapse" style="margin-left: 54px;">Опис</a>
+          <div id="demo-39" class="collapse" style="text-align: center;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et.
+          </div>
+        <p class="card-text"><small class="text-muted">Розміри у наявності</small></p>
+        <div class="form-check form-check-inline z">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">44(30 см) </label>
+        </div>
+        <div class="form-check form-check-inline z">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">43(29 см)</label>
+        </div>
+        <button type="button" class="btn btn-success" id="dit">Замовити</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <div style="text-align: center;"><b>Артикул: SL-DC-4308</b></div>
+      <img src="img\3f6b611afb6e18378376b19d1d31050e.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Форма "Реал Мадрид"<br/><h6><s>580 грн</s></h6><br/><h6 class="alen">480 грн</h6></h5>
+        <div class="container">
+              <a href="#demo-2" class="btn btn-info" data-toggle="collapse" style="margin-left: 50px;">Опис</a>
+              <div id="demo-2" class="collapse" style="text-align: center;">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et.
+              </div>
+            </div>
+        <p class="card-text"><small class="text-muted">Розміри у наявності</small></p>
+        <div class="form-check form-check-inline y">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">S(42-44)</label>
+        </div>
+        <div class="form-check form-check-inline y">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">L(46-48)</label>
+        </div>
+        <button type="button" class="btn btn-success" id="bit">Замовити</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <div style="text-align: center;"><b>Артикул: SL-DC-4308</b></div>
+      <img src="img\2e36723295dab9ab8fec184394bd2500.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Бутси Adidas<br/><h6><s>1180 грн</s></h6><br/><h6 class="alen">980 грн</h6></h5>
+        <div class="container">
+          <a href="#demo-4" class="btn btn-info" data-toggle="collapse" style="margin-left: 54px;">Опис</a>
+          <div id="demo-4" class="collapse" style="text-align: center;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et.
+          </div>
+        <p class="card-text"><small class="text-muted">Розміри у наявності</small></p>
+        <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">44(30 см)</label>
+        </div>
+        <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">43(29 см)</label>
+        </div>
+        <button type="button" class="btn btn-success" id="dit">Замовити</button>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+<a href="#head" class="btn" style="margin-top: 200px; margin-left: 70px; width:200px; height: 65px; text-align: center; background-color: blue; color: yellow;"><h3><b>Нагору &uArr;</b></h3></a>
+</div>
+<div class="main" style="height: 2400px;">
+ <div сlass="jack" style="text-align: center; margin-top: 70px; background-color: #6B8E23;left: 0; width: 100%; padding: 15px;"><h2><b>Футбольна форма</b></h2></div>
+ <div class="card-group one">
+  <div class="card">
+    <div style="text-align: center;"><b>Артикул: SL-DC-4308</b></div>
+    <img src="img\c286dd9a0a44785e8627cb97f305164c.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Форма "ПСЖ"<br/><h6>580 грн</h6></h5>
+      <div class="container">
+          <a href="#demo-47" class="btn btn-info" data-toggle="collapse" style="margin-left: 140px;">Опис</a>
+          <div id="demo-47" class="collapse" style="text-align: center;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      <p class="card-text"><small class="text-muted">Розміри у наявності</small></p>
+      <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">S(42-44)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">M(44-46)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">L(46-48)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">XL(48-50)</label>
+        </div>
+        <button type="button" class="btn btn-success" id="seven">Замовити</button>
+    </div>
+  </div>
+  <div class="card">
+    <div style="text-align: center;"><b>Артикул: SL-DC-4308</b></div>
+    <img src="img\ef75b77759cee14f8e45debed8c56e2d.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Футбольна форма "Манчестер Юнайтед"<br/><h6>580 грн</h6></h5>
+      <div class="container">
+          <a href="#demo-6" class="btn btn-info" data-toggle="collapse" style="margin-left: 140px;">Опис</a>
+          <div id="demo-6" class="collapse" style="text-align: center;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      <p class="card-text"><small class="text-muted">Розміри у наявності</small></p>
+      <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">S(42-44)</label>
+        </div>
+        <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">M(44-46)</label>
+        </div>
+        <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">L(46-48)</label>
+        </div>
+        <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">XL(48-50)</label>
+        </div>
+        <button type="button" class="btn btn-success" id="seven">Замовити</button>
+    </div>
+  </div>
+  <div class="card">
+    <div style="text-align: center;"><b>Артикул: SL-DC-4308</b></div>
+    <img src="img\945225d70050308fb4da44321d5b2310.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Футбольна форма "Манчестер Юнайтед"<br/><h6>780 грн</h6></h5>
+      <div class="container">
+          <a href="#demo-37" class="btn btn-info" data-toggle="collapse" style="margin-left: 140px;">Опис</a>
+          <div id="demo-37" class="collapse" style="text-align: center;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      <p class="card-text"><small class="text-muted">Розміри у наявності</small></p>
+      <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">S(42-44)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">M(44-46)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">L(46-48)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">XL(48-50)</label>
+        </div>
+        <button type="button" class="btn btn-success" id="seven">Замовити</button>
+    </div>
+  </div>
+</div>
+<div class="card-group one">
+  <div class="card">
+    <div style="text-align: center;"><b>Артикул: SL-DC-4308</b></div>
+    <img src="img\c912c16a95ff27d5375a1c061ae02d1a.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Форма "ПСЖ"<br/><h6>580 грн</h6></h5>
+      <div class="container">
+          <a href="#demo-11" class="btn btn-info" data-toggle="collapse" style="margin-left: 140px;">Опис</a>
+          <div id="demo-11" class="collapse" style="text-align: center;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      <p class="card-text"><small class="text-muted">Розміри у наявності</small></p>
+      <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">S(42-44)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio2">M(44-46)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">L(46-48)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">XL(48-50)</label>
+        </div>
+        <button type="button" class="btn btn-success" id="seven">Замовити</button>
+    </div>
+  </div>
+  <div class="card">
+    <div style="text-align: center;"><b>Артикул: SL-DC-4308</b></div>
+    <img src="img\114e8e6d35573b79f1fc82bb607f78a6.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Футбольна форма "Манчестер Юнайтед"<br/><h6>580 грн</h6></h5>
+      <div class="container">
+          <a href="#demo-13" class="btn btn-info" data-toggle="collapse" style="margin-left: 140px;">Опис</a>
+          <div id="demo-13" class="collapse" style="text-align: center;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      <p class="card-text"><small class="text-muted">Розміри у наявності</small></p>
+      <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">S(42-44)</label>
+        </div>
+        <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">M(44-46)</label>
+        </div>
+        <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">L(46-48)</label>
+        </div>
+        <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">XL(48-50)</label>
+        </div>
+        <button type="button" class="btn btn-success" id="seven">Замовити</button>
+    </div>
+  </div>
+  <div class="card">
+    <div style="text-align: center;"><b>Артикул: SL-DC-4308</b></div>
+    <img src="img\19021eb68cdde0bbbfb0219d8e7d64fc.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Футбольна форма "Манчестер Юнайтед"<br/><h6>880 грн</h6></h5>
+      <div class="container">
+          <a href="#demo" class="btn btn-info" data-toggle="collapse" style="margin-left: 140px;">Опис</a>
+          <div id="demo" class="collapse" style="text-align: center;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      <p class="card-text"><small class="text-muted">Розміри у наявності</small></p>
+      <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">S(42-44)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">M(44-46)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">L(46-48)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">XL(48-50)</label>
+        </div>
+        <button type="button" class="btn btn-success" id="seven">Замовити</button>
+    </div>
+  </div>
+</div>
+<div class="prime"><h2><b>Футбольні бутси</b></h2></div>
+<div class="card-group one">
+  <div class="card">
+    <div style="text-align: center;"><b>Артикул: SL-DC-4308</b></div>
+    <img src="img\kisspng-adidas-predator-football-boot-cleat-shoe-football-boot-5b1a9b1fa16559.6455676915284703036611.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Бутси "Adidas"<br/><h6>1580 грн</h6></h5>
+      <div class="container">
+          <a href="#demo-15" class="btn btn-info" data-toggle="collapse" style="margin-left: 140px;">Опис</a>
+          <div id="demo-15" class="collapse" style="text-align: center;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      <p class="card-text"><small class="text-muted">Розміри у наявності</small></p>
+      <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">42(28см)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">43(29см)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">44(30см)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">45(31см)</label>
+        </div>
+        <button type="button" class="btn btn-success" id="seven">Замовити</button>
+    </div>
+  </div>
+  <div class="card">
+    <div style="text-align: center;"><b>Артикул: SL-DC-4308</b></div>
+    <img src="img\football_boots_PNG61.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Бутси "Nike"<br/><h6>1580 грн</h6></h5>
+      <div class="container">
+          <a href="#demo-16" class="btn btn-info" data-toggle="collapse" style="margin-left: 140px;">Опис</a>
+          <div id="demo-16" class="collapse" style="text-align: center;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      <p class="card-text"><small class="text-muted">Розміри у наявності</small></p>
+      <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">42(28см)</label>
+        </div>
+        <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">43(29см)</label>
+        </div>
+        <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">44(30см)</label>
+        </div>
+        <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">45(31см)</label>
+        </div>
+        <button type="button" class="btn btn-success" id="seven">Замовити</button>
+    </div>
+  </div>
+  <div class="card">
+    <div style="text-align: center;"><b>Артикул: SL-DC-4308</b></div>
+    <img src="img\ca89e465395df8930d7c8c6fb4c9c958.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Бутси Adidas<br/><h6>1180 грн</h6></h5>
+      <div class="container">
+          <a href="#demo-20" class="btn btn-info" data-toggle="collapse" style="margin-left: 140px;">Опис</a>
+          <div id="demo-20" class="collapse" style="text-align: center;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      <p class="card-text"><small class="text-muted">Розміри у наявності</small></p>
+      <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">42(28cм)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">43(29см)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">44(30см)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">45(31см)</label>
+        </div>
+        <button type="button" class="btn btn-success" id="seven">Замовити</button>
+    </div>
+  </div>
+</div>
+<div class="card-group one">
+  <div class="card">
+    <div style="text-align: center;"><b>Артикул: SL-DC-4308</b></div>
+    <img src="img\d243da05a2db3eef1263c069b4e6cc72.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Бутси "Nike"<br/><h6>1580 грн</h6></h5>
+      <div class="container">
+          <a href="#demo-7" class="btn btn-info" data-toggle="collapse" style="margin-left: 130px;">Опис</a>
+          <div id="demo-7" class="collapse" style="text-align: center;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      <p class="card-text"><small class="text-muted">Розміри у наявності</small></p>
+      <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">42(28см)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">43(29см)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">44(30см)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">45(31см)</label>
+        </div>
+        <button type="button" class="btn btn-success" id="seven">Замовити</button>
+    </div>
+  </div>
+  <div class="card">
+    <div style="text-align: center;"><b>Артикул: SL-DC-4308</b></div>
+    <img src="img\football_boots_PNG61.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Бутси "Nike"<br/><h6>1580 грн</h6></h5>
+      <div class="container">
+          <a href="#demo-26" class="btn btn-info" data-toggle="collapse" style="margin-left: 140px;">Опис</a>
+          <div id="demo-26" class="collapse" style="text-align: center;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      <p class="card-text"><small class="text-muted">Розміри у наявності</small></p>
+      <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">42(28см)</label>
+        </div>
+        <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">43(29см)</label>
+        </div>
+        <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">44(30см)</label>
+        </div>
+        <div class="form-check form-check-inline ">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">45(31см)</label>
+        </div>
+        <button type="button" class="btn btn-success" id="seven">Замовити</button>
+    </div>
+  </div>
+  <div class="card">
+    <div style="text-align: center;"><b>Артикул: SL-DC-4308</b></div>
+    <img src="img\ca89e465395df8930d7c8c6fb4c9c958.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Бутси Adidas<br/><h6>1180 грн</h6></h5>
+      <div class="container">
+          <a href="#demo-30" class="btn btn-info" data-toggle="collapse" style="margin-left: 140px;">Опис</a>
+          <div id="demo-30" class="collapse" style="text-align: center;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+        </div>
+      <p class="card-text"><small class="text-muted">Розміри у наявності</small></p>
+      <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">42(28cм)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">43(29см)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">44(30см)</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">45(31см)</label>
+        </div>
+        <button type="button" class="btn btn-success" id="seven">Замовити</button>
+    </div>
+  </div>
+</div>
+</div>
+<div class="footer-1">
+  <div>
+      <img class="footlogo-1" src="img\1625159311_5-kartinkin-com-p-futbol-fon-krasivie-foni-5.jpg" alt="Logo_2"/>
+  </div>
+  <div class="namefoot"><h4>Усі права захищені 2022р &copy;</h4></div>
+</div> 
+  
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>
