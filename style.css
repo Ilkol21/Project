@@ -1,7 +1,7 @@
 .header{
     margin-left: 10px;
     width:99%;
-    height: 150px;
+    height: 160px;
     background-color: #808080;
 }
  /* div{
@@ -10,7 +10,7 @@
 .nav{
     margin-top: 2px;
     height: 60px;
-    width: 100%;
+    width: 1335.5px;
 }
 .aside{
     float: left;
@@ -29,16 +29,17 @@
 .footer{
     width: 125.7%;
     height: 150px;
-    margin-top: 450px;
+    margin-top: 550px;
     margin-left: -350px;
 }
 .logo{
    margin-top: 15px;     
-   margin-left: 85px;
+   margin-left: 95px;
    width: 100px;
    height: 100px;
    box-shadow: 50px -5px 50px -20px #DCDCDC; 
    background-color: #DCDCDC;
+   left: 20px;
 }
 .name{
     font-family: 'Qwitcher Grypen', cursive;
@@ -56,7 +57,7 @@
     height: 70px;
     float: right;
     margin-top: 60px;
-    margin-right: 580px;
+    margin-right: 480px;
 }
 .logo-2{
     width: 70px;
@@ -84,7 +85,7 @@
     height: 70px;
     float: right;
     right:0;
-    margin-right: -1007px;
+    margin-right: -907px;
     margin-top: -50px;
     text-align: right;
     padding-right: 5px;
@@ -92,6 +93,7 @@
 .footlogo{
     width: 100%;
     height: 150px;
+    margin-top: 100px;
 }
 .namefoot{
     width: 350px;
@@ -188,6 +190,7 @@
     position: absolute;
     margin-top: 50px;
     margin-left: 20px;
+    left: 1px;
 }
 .carousel{
     margin-top: 120px;
@@ -197,12 +200,12 @@
     height: 130px;
 }
 .navbar,s{
-    width: 100%;
+    width: 1335.5px;
     height: 40px;
 }
 .d-flex{
     padding: 5px;
-    width: 500px;
+    width: 460px;
     height: 60px;
 }
 .form-control {
@@ -227,7 +230,7 @@
 }
 .navbar-brand{
     font-size: 32px;
-    padding: 10px;
+    padding: 5px;
     background-color: black;
     color: #fff;
 }
@@ -248,6 +251,7 @@
 }
 .row-cols-md-8{
     margin-top: 100px;
+    left: -20px;
 }
 .card-title, h6{
     text-align: center;
@@ -261,6 +265,7 @@
 }
 .row-cols-md-8{
     margin-top: 120px;
+    left: -20px;
 
 }
 .alen{
@@ -276,14 +281,14 @@
     margin-left: 85px;
 }
 #seven{
-    margin-left: 133px;
+    margin-left: 85px;
 }
 .t-34{
     text-align: center;
 }
 
 .t-72{
-    margin-left: 870px;
+    margin-left: 800px;
     margin-top: -500px;
     width: 200px;
     height: 60px;
@@ -291,8 +296,8 @@
     
 }
 .kol{
-    width:700px;
-    margin-left: -270px;
+    width:400px;
+    margin-left: -200px;
     margin-top: -20px;
     
 }
@@ -305,23 +310,24 @@
     margin-left: 55px;
 }
 .wape{
-    margin-left: 20px;
+    margin-left: -200px;
 }
 .input-group{
-    margin-left: -100px;
+    margin-left: -210px;
 }
 .bg-fon{
     margin-top: 100px;
 }
 .x{
-    margin-left: 110px;
-    margin-top: 25px;
+    margin-left: 80px;
+    margin-top: 75px;
 } 
 .h-100{
-    width: 280px;
+    width: 260px;
+    margin-left: -25px;
 }
 .tim{
-    margin-left: 15px;
+    margin-left: -10px;
 }
 #dit{
     margin-left: 45px;
@@ -331,11 +337,11 @@
     color: white;
 }
 .footlogo-1{
-    width: 100%;
+    width: 1348px;
     height: 150px;
 }
 .footer-1{
-    width: 99.95%;
+    width: 1348px;
     height: 150px;
     margin-top: -15px;
 }
@@ -349,6 +355,9 @@
     padding: 15px;
     text-align: center;
     background-color: #6B8E23;
+}
+.rip:hover{
+    left: -20px;
 }
 
 
